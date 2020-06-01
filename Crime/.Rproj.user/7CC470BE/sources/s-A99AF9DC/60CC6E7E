@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590963270340.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "60CC6E7E",
+    "lastKnownWriteTime" : 1590963129,
+    "last_content_update" : 1590963270340,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2003BFDD",
+        "caption" : "contagemabril",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=contagemabril&cache_key=2003BFDD",
+        "displayedObservations" : "5",
+        "environment" : "",
+        "expression" : "contagemabril",
+        "object" : "contagemabril",
+        "preview" : "0",
+        "totalObservations" : "5",
+        "variables" : "4"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,9 @@
+{
+    "path" : "~/GitHub/crimecuritiba/crime/Crime",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

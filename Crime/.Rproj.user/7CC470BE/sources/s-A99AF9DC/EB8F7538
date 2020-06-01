@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590961006277.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EB8F7538",
+    "lastKnownWriteTime" : 4991218960777758034,
+    "last_content_update" : 1590961006277,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "4F9D0FEF",
+        "caption" : "dez2019gm",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dez2019gm&cache_key=4F9D0FEF",
+        "displayedObservations" : 261661,
+        "environment" : "",
+        "expression" : "dez2019gm",
+        "object" : "dez2019gm",
+        "preview" : 0,
+        "totalObservations" : 261661,
+        "variables" : 35
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

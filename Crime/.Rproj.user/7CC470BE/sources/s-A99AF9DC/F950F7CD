@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590961190082.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F950F7CD",
+    "lastKnownWriteTime" : 7359009830095560820,
+    "last_content_update" : 1590961190082,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5CF29FFF",
+        "caption" : "painel",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=painel&cache_key=5CF29FFF",
+        "displayedObservations" : "91849",
+        "environment" : "",
+        "expression" : "painel",
+        "object" : "painel",
+        "preview" : "0",
+        "totalObservations" : "91849",
+        "variables" : "5"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
