@@ -55,17 +55,23 @@ gm2020 %>%
 
 
 gm2020 %>%
+  filter(ATENDIMENTO_ANO != "") %>%
   group_by(ATENDIMENTO_ANO, OCORRENCIA_MES, NATUREZA1_DESCRICAO) %>%
   summarize(n=n()) %>%
   filter(OCORRENCIA_MES == 4) %>%
+  #filter(ATENDIMENTO_ANO > 2016) %>%
   filter(NATUREZA1_DESCRICAO == "Violação de Medida Protetiva Lei Maria da Penha") %>%
   ggplot() + 
   geom_point(aes(x = ATENDIMENTO_ANO, y = n)) +
-  geom_segment( aes(x= ATENDIMENTO_ANO , xend= ATENDIMENTO_ANO, y=0, yend= n), color="indianred") +
+  geom_segment( aes(x= ATENDIMENTO_ANO , xend= ATENDIMENTO_ANO, y=0, yend= n), color="red") +
   theme_minimal() + 
   xlab("Ano") +
   ylab("Numero de Ocorrências") +
-  ggtitle("Número de Ocorrências da Lei da  Maria da Penha em Abril")
+  ggtitle("Número de Ocorrências da Lei da  Maria da Penha em Abril") + 
+  coord_flip() +
+  theme(plot.title = element_text(size = 30)) +
+  theme(axis.text = element_text(size=12))
+  
 
 
 gm2020 %>%
